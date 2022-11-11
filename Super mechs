@@ -46,13 +46,13 @@
       "type": "TORSO",
       "transform_range": "M",
       "stats": {
-        "weight": 382,
-        "health": 400,
-        "eneCap": 100,
-        "eneReg": 30,
-        "heaCap": 120,
-        "heaCol": 40,
-        "eleRes": 8
+        "weight": 31,
+        "health": 40000,
+        "eneCap": 10000,
+        "eneReg": 30000,
+        "heaCap": 12000,
+        "heaCol": 4000,
+        "eleRes": 800
       },
       "element": "PHYSICAL"
     },
@@ -80,15 +80,15 @@
       "type": "TORSO",
       "transform_range": "M",
       "stats": {
-        "weight": 380,
-        "health": 450,
-        "eneCap": 90,
+        "weight": 1,
+        "health": 1000000,
+        "eneCap": 9000000,
         "eneReg": 30,
-        "heaCap": 140,
+        "heaCap": 140000000,
         "heaCol": 15,
-        "phyRes": 4,
-        "expRes": 2,
-        "eleRes": 2
+        "phyRes": -99999,
+        "expRes": -99999,
+        "eleRes": -99999
       },
       "element": "EXPLOSIVE"
     },
@@ -119,19 +119,19 @@
       "element": "PHYSICAL",
       "transform_range": "M",
       "stats": {
-        "weight": 56,
-        "health": 36,
+        "weight": 1,
+        "health": 3600000,
         "phyDmg": [
-          80,
-          80
+          1,
+          100000
         ],
-        "push": 1,
+        "push": 0,
         "range": [
           1,
-          1
+          9
         ],
-        "walk": 1,
-        "jump": 2
+        "walk": 9,
+        "jump": 9
       }
     },
     {
@@ -148,7 +148,7 @@
           40,
           40
         ],
-        "heaDmg": 54,
+        "heaDmg": 540000000,
         "push": 1,
         "range": [
           1,
@@ -258,14 +258,14 @@
       "element": "EXPLOSIVE",
       "transform_range": "M",
       "stats": {
-        "weight": 68,
-        "health": 45,
+        "weight": 1,
+        "health": 1000000,
         "expDmg": [
-          40,
-          40
+          1,
+          1
         ],
-        "heaDmg": 25,
-        "push": 1,
+        "heaDmg": 25000,
+        "push": 8,
         "range": [
           1,
           1
@@ -281,17 +281,17 @@
       "element": "ELECTRIC",
       "transform_range": "M",
       "stats": {
-        "weight": 68,
-        "health": 45,
+        "weight": 1,
+        "health": 50000,
         "eleDmg": [
           40,
           40
         ],
-        "eneDmg": 25,
+        "eneDmg": 1000000,
         "push": 1,
         "range": [
           1,
-          1
+          9
         ],
         "walk": 3
       }
@@ -373,17 +373,17 @@
       "element": "PHYSICAL",
       "transform_range": "M",
       "stats": {
-        "weight": 69,
+        "weight": 1,
         "phyDmg": [
-          75,
-          85
+          1,
+          1
         ],
-        "phyResDmg": 3,
+        "phyResDmg": 100000,
         "range": [
-          2,
-          4
+          1,
+          7
         ],
-        "bulletsCost": 15
+        "bulletsCost": 0
       }
     },
     {
@@ -439,19 +439,19 @@
       "element": "PHYSICAL",
       "transform_range": "M",
       "stats": {
-        "weight": 59,
+        "weight": 1,
         "phyDmg": [
-          30,
-          155
+          222,
+          555
         ],
-        "phyResDmg": 2,
+        "phyResDmg": 200,
         "push": 1,
         "range": [
           1,
           2
         ],
         "heaCost": 12,
-        "bulletsCost": 15
+        "bulletsCost": 0
       }
     },
     {
@@ -914,18 +914,18 @@
       "name": "Sector Eye",
       "image": "%url%Sector Eye.png",
       "type": "DRONE",
-      "element": "EXPLOSIVE",
+      "element": "PHYSICAL",
       "transform_range": "M",
       "stats": {
-        "weight": 37,
-        "expDmg": [
-          40,
-          40
+        "weight": 1,
+        "phyDmg": [
+          400,
+          40000
         ],
         "heaDmg": 25,
-        "eneCost": 8,
+        "eneCost": 0,
         "heaCost": 14,
-        "rocketsCost": 10
+        "rocketsCost": 0
       }
     },
     {
@@ -1001,10 +1001,10 @@
         ],
         "range": [
           2,
-          7
+          10
         ],
-        "uses": 2,
-        "eneCost": 10,
+        "uses": 100,
+        "eneCost": 0,
         "heaCost": 10
       }
     },
@@ -1063,7 +1063,7 @@
       "transform_range": "M",
       "stats": {
         "weight": 1,
-        "health": 7998
+        "health": 10000
       }
     },
     {
@@ -1150,11 +1150,11 @@
       "element": "COMBINED",
       "transform_range": "M",
       "stats": {
-        "weight": 53,
-        "eneCap": 22,
-        "eneReg": 11,
-        "heaCap": 22,
-        "heaCol": 11
+        "weight": 1,
+        "eneCap": 2000000,
+        "eneReg": 100000,
+        "heaCap": 200000,
+        "heaCol": 10000
       }
     },
     {
