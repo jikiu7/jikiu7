@@ -1,0 +1,5939 @@
+{
+  "version": "1",
+  "config": {
+    "key": "@legacy",
+    "name": "Legacy Items Pack",
+    "description": "Only legacy items!\n\nCredits: Raul, Eneg, Fluffeh",
+    "base_url": "https://raw.githubusercontent.com/ctrl-raul/supermechs-item-images/master/legacy/png/"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Ultraspade",
+      "image": "%url%Ultraspade.png",
+      "type": "TORSO",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 364,
+        "health": 408,
+        "eneCap": 150,
+        "eneReg": 40,
+        "heaCap": 110,
+        "heaCol": 20
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lava Scope",
+      "image": "%url%Lava Scope.png",
+      "type": "TORSO",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "health": 38000,
+        "eneCap": 9000,
+        "eneReg": 25000,
+        "heaCap": 15000,
+        "heaCol": 5000
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 3,
+      "name": "Electron Defence",
+      "image": "%url%Electron Defence.png",
+      "type": "TORSO",
+      "transform_range": "M",
+      "stats": {
+        "weight": 382,
+        "health": 400,
+        "eneCap": 100,
+        "eneReg": 30,
+        "heaCap": 120,
+        "heaCol": 40,
+        "eleRes": 8
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 4,
+      "name": "Metrolens",
+      "image": "%url%Metrolens.png",
+      "type": "TORSO",
+      "transform_range": "M",
+      "stats": {
+        "weight": 379,
+        "health": 400,
+        "eneCap": 115,
+        "eneReg": 30,
+        "heaCap": 115,
+        "heaCol": 30,
+        "phyRes": 8
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 5,
+      "name": "USA Mark I",
+      "image": "%url%USA Mark I.png",
+      "type": "TORSO",
+      "transform_range": "M",
+      "stats": {
+        "weight": 380,
+        "health": 450,
+        "eneCap": 90,
+        "eneReg": 30,
+        "heaCap": 140,
+        "heaCol": 15,
+        "phyRes": 4,
+        "expRes": 2,
+        "eleRes": 2
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 6,
+      "name": "Yoshimo X",
+      "image": "%url%Yoshimo X.png",
+      "type": "TORSO",
+      "transform_range": "M",
+      "stats": {
+        "weight": 380,
+        "health": 450,
+        "eneCap": 140,
+        "eneReg": 15,
+        "heaCap": 90,
+        "heaCol": 30,
+        "phyRes": 2,
+        "expRes": 4,
+        "eleRes": 2
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 7,
+      "name": "Rhino Boots",
+      "image": "%url%Rhino Boots.png",
+      "type": "LEGS",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 56,
+        "health": 36,
+        "phyDmg": [
+          80,
+          80
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      }
+    },
+    {
+      "id": 8,
+      "name": "Flame Boots",
+      "image": "%url%Flame Boots.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 71,
+        "health": 36,
+        "expDmg": [
+          40,
+          40
+        ],
+        "heaDmg": 54,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      }
+    },
+    {
+      "id": 9,
+      "name": "Thunder Boots",
+      "image": "%url%Thunder Boots.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 76,
+        "health": 36,
+        "eleDmg": [
+          37,
+          37
+        ],
+        "eneDmg": 54,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      }
+    },
+    {
+      "id": 10,
+      "name": "Steel Tractors",
+      "image": "%url%Steel Tractors.png",
+      "type": "LEGS",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 59,
+        "health": 35,
+        "phyDmg": [
+          60,
+          60
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 11,
+      "name": "Burning Tractors",
+      "image": "%url%Burning Tractors.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 72,
+        "health": 35,
+        "expDmg": [
+          28,
+          28
+        ],
+        "heaDmg": 45,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "Lightning Tractors",
+      "image": "%url%Lightning Tractors.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 72,
+        "health": 35,
+        "eleDmg": [
+          28,
+          28
+        ],
+        "eneDmg": 45,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 13,
+      "name": "USA Transporter",
+      "image": "%url%USA Transporter.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 68,
+        "health": 45,
+        "expDmg": [
+          40,
+          40
+        ],
+        "heaDmg": 25,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 14,
+      "name": "Yoshimo Legs",
+      "image": "%url%Yoshimo Legs.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 68,
+        "health": 45,
+        "eleDmg": [
+          40,
+          40
+        ],
+        "eneDmg": 25,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 15,
+      "name": "Meteor",
+      "image": "%url%Meteor.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 50,
+        "phyDmg": [
+          76,
+          120
+        ],
+        "phyResDmg": 4,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 15,
+        "heaCost": 9
+      }
+    },
+    {
+      "id": 16,
+      "name": "Meltdown",
+      "image": "%url%Meltdown.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 58,
+        "expDmg": [
+          48,
+          68
+        ],
+        "heaDmg": 52,
+        "expResDmg": 3,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 11,
+        "heaCost": 18
+      }
+    },
+    {
+      "id": 17,
+      "name": "Sparks",
+      "image": "%url%Sparks.png",
+      "type": "SIDE_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 59,
+        "eleDmg": [
+          48,
+          68
+        ],
+        "eneDmg": 52,
+        "eleResDmg": 3,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 24
+      }
+    },
+    {
+      "id": 18,
+      "name": "Needle Blaster Mark I",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 69,
+        "phyDmg": [
+          75,
+          85
+        ],
+        "phyResDmg": 3,
+        "range": [
+          2,
+          4
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 19,
+      "name": "Needle Blaster Mark II",
+      "image": "%url%Needle Blaster Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 71,
+        "phyDmg": [
+          80,
+          90
+        ],
+        "phyResDmg": 3,
+        "range": [
+          2,
+          4
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 20,
+      "name": "Yoshimo Blade",
+      "image": "%url%Yoshimo Blade.png",
+      "type": "SIDE_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 61,
+        "eleDmg": [
+          50,
+          72
+        ],
+        "eneDmg": 52,
+        "eleResDmg": 4,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 22,
+        "heaCost": 12
+      }
+    },
+    {
+      "id": 21,
+      "name": "Piercing Shotgun Mark I",
+      "image": "%url%Piercing Shotgun Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 59,
+        "phyDmg": [
+          30,
+          155
+        ],
+        "phyResDmg": 2,
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 12,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 22,
+      "name": "Piercing Shotgun Mark II",
+      "image": "%url%Piercing Shotgun Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 65,
+        "expDmg": [
+          35,
+          115
+        ],
+        "heaDmg": 43,
+        "expResDmg": 2,
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "eneCost": 5,
+        "heaCost": 25,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 23,
+      "name": "Piercing Shotgun Mark III",
+      "image": "%url%Piercing Shotgun Mark III.png",
+      "type": "SIDE_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 65,
+        "eleDmg": [
+          35,
+          115
+        ],
+        "eneDmg": 43,
+        "eleResDmg": 2,
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "eneCost": 25,
+        "heaCost": 5,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 24,
+      "name": "Death Punch Mark I",
+      "image": "%url%Death Punch Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 61,
+        "expDmg": [
+          90,
+          140
+        ],
+        "heaDmg": 52,
+        "expResDmg": 5,
+        "push": 1,
+        "range": [
+          4,
+          6
+        ],
+        "uses": 1,
+        "eneCost": 5,
+        "heaCost": 15,
+        "rocketsCost": 20
+      }
+    },
+    {
+      "id": 25,
+      "name": "Death Punch Mark II",
+      "image": "%url%Death Punch Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "expDmg": [
+          699,
+          1460
+        ],
+        "heaDmg": 544,
+        "expResDmg": 5,
+        "push": 1,
+        "range": [
+          1,
+          6
+        ],
+        "uses": 10,
+        "eneCost": 0,
+        "heaCost": 1,
+        "rocketsCost": 0
+      }
+    },
+    {
+      "id": 26,
+      "name": "Wipeout Mark I",
+      "image": "%url%Wipeout Mark I.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 49,
+        "phyDmg": [
+          62,
+          81
+        ],
+        "phyResDmg": 3,
+        "range": [
+          5,
+          6
+        ],
+        "heaCost": 13,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 27,
+      "name": "Wipeout Mark II",
+      "image": "%url%Wipeout Mark II.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 49,
+        "phyDmg": [
+          63,
+          84
+        ],
+        "phyResDmg": 3,
+        "range": [
+          5,
+          6
+        ],
+        "heaCost": 13,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 28,
+      "name": "Wipeout Mark III",
+      "image": "%url%God Mode.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 55,
+        "phyDmg": [
+          63,
+          85
+        ],
+        "phyResDmg": 4,
+        "range": [
+          5,
+          6
+        ],
+        "heaCost": 13,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 29,
+      "name": "Physical Orb Cannon",
+      "image": "%url%Physical Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 54,
+        "phyDmg": [
+          50,
+          60
+        ],
+        "phyResDmg": 3,
+        "pull": 1,
+        "range": [
+          4,
+          6
+        ],
+        "eneCost": 8,
+        "heaCost": 8
+      }
+    },
+    {
+      "id": 30,
+      "name": "Adv. Physical Orb Cannon",
+      "image": "%url%Adv. Physical Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 56,
+        "phyDmg": [
+          52,
+          66
+        ],
+        "phyResDmg": 3,
+        "pull": 1,
+        "range": [
+          4,
+          6
+        ],
+        "eneCost": 8,
+        "heaCost": 8
+      }
+    },
+    {
+      "id": 31,
+      "name": "Heat Orb Cannon",
+      "image": "%url%Heat Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 55,
+        "expDmg": [
+          40,
+          50
+        ],
+        "heaDmg": 26,
+        "expResDmg": 2,
+        "pull": 1,
+        "range": [
+          4,
+          6
+        ],
+        "eneCost": 5,
+        "heaCost": 15
+      }
+    },
+    {
+      "id": 32,
+      "name": "Electric Orb Cannon",
+      "image": "%url%Electric Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 55,
+        "eleDmg": [
+          40,
+          50
+        ],
+        "eneDmg": 26,
+        "eleResDmg": 2,
+        "pull": 1,
+        "range": [
+          4,
+          6
+        ],
+        "eneCost": 15,
+        "heaCost": 5
+      }
+    },
+    {
+      "id": 33,
+      "name": "Adv. Electric Orb Cannon",
+      "image": "%url%Adv. Electric Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 57,
+        "eleDmg": [
+          42,
+          54
+        ],
+        "eneDmg": 28,
+        "eleResDmg": 2,
+        "pull": 1,
+        "range": [
+          4,
+          6
+        ],
+        "eneCost": 16,
+        "heaCost": 6
+      }
+    },
+    {
+      "id": 34,
+      "name": "Super Nova Mark I",
+      "image": "%url%Super Nova Mark I.png",
+      "type": "TOP_WEAPON",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 62,
+        "eleDmg": [
+          30,
+          66
+        ],
+        "eneDmg": 110,
+        "eleResDmg": 5,
+        "push": 1,
+        "range": [
+          4,
+          6
+        ],
+        "uses": 1,
+        "eneCost": 35,
+        "heaCost": 5
+      }
+    },
+    {
+      "id": 35,
+      "name": "Mayhem Battery I",
+      "image": "%url%Mayhem Battery I.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 57,
+        "expDmg": [
+          52,
+          71
+        ],
+        "heaDmg": 31,
+        "expResDmg": 2,
+        "range": [
+          4,
+          7
+        ],
+        "heaCost": 24,
+        "rocketsCost": 15
+      }
+    },
+    {
+      "id": 36,
+      "name": "Mayhem Battery II",
+      "image": "%url%Mayhem Battery II.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 58,
+        "expDmg": [
+          53,
+          73
+        ],
+        "heaDmg": 33,
+        "expResDmg": 2,
+        "range": [
+          4,
+          7
+        ],
+        "heaCost": 25,
+        "rocketsCost": 15
+      }
+    },
+    {
+      "id": 37,
+      "name": "Mayhem Battery III",
+      "image": "%url%God Mode.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 65,
+        "expDmg": [
+          54,
+          75
+        ],
+        "heaDmg": 34,
+        "expResDmg": 3,
+        "range": [
+          4,
+          7
+        ],
+        "heaCost": 26,
+        "rocketsCost": 15
+      }
+    },
+    {
+      "id": 38,
+      "name": "Backstabber Mark I",
+      "image": "%url%God Mode.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 71,
+        "expDmg": [
+          60,
+          87
+        ],
+        "heaDmg": 35,
+        "expResDmg": 2,
+        "pull": 1,
+        "range": [
+          4,
+          7
+        ],
+        "eneCost": 5,
+        "heaCost": 20,
+        "rocketsCost": 10
+      }
+    },
+    {
+      "id": 39,
+      "name": "Backstabber Mark II",
+      "image": "%url%God Mode.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 80,
+        "expDmg": [
+          65,
+          101
+        ],
+        "heaDmg": 37,
+        "expResDmg": 3,
+        "pull": 1,
+        "range": [
+          4,
+          7
+        ],
+        "eneCost": 6,
+        "heaCost": 24,
+        "rocketsCost": 15
+      }
+    },
+    {
+      "id": 40,
+      "name": "Red Rain Mark I",
+      "image": "%url%God Mode.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 71,
+        "expDmg": [
+          60,
+          87
+        ],
+        "heaDmg": 35,
+        "expResDmg": 2,
+        "pull": 1,
+        "range": [
+          3,
+          5
+        ],
+        "eneCost": 5,
+        "heaCost": 20,
+        "rocketsCost": 10
+      }
+    },
+    {
+      "id": 41,
+      "name": "Sector Eye",
+      "image": "%url%Sector Eye.png",
+      "type": "DRONE",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 37,
+        "expDmg": [
+          40,
+          40
+        ],
+        "heaDmg": 25,
+        "eneCost": 8,
+        "heaCost": 14,
+        "rocketsCost": 10
+      }
+    },
+    {
+      "id": 42,
+      "name": "Evil Spark",
+      "image": "%url%Evil Spark.png",
+      "type": "DRONE",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 36,
+        "eleDmg": [
+          30,
+          42
+        ],
+        "eneDmg": 23,
+        "eneCost": 20
+      }
+    },
+    {
+      "id": 43,
+      "name": "Lightning Gate Mark I",
+      "image": "%url%Lightning Gate Mark I.png",
+      "type": "TELEPORTER",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 25,
+        "eleDmg": [
+          35,
+          45
+        ],
+        "eneDmg": 34,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 2,
+        "eneCost": 20
+      }
+    },
+    {
+      "id": 44,
+      "name": "Fire Tail Mark I",
+      "image": "%url%Fire Tail Mark I.png",
+      "type": "CHARGE_ENGINE",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 19,
+        "phyDmg": [
+          40,
+          40
+        ],
+        "push": 1,
+        "uses": 2,
+        "eneCost": 15,
+        "heaCost": 25
+      }
+    },
+    {
+      "id": 45,
+      "name": "Rock Biter",
+      "image": "%url%Rock Biter.png",
+      "type": "GRAPPLING_HOOK",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 23,
+        "phyDmg": [
+          40,
+          55
+        ],
+        "range": [
+          2,
+          7
+        ],
+        "uses": 2,
+        "eneCost": 10,
+        "heaCost": 10
+      }
+    },
+    {
+      "id": 46,
+      "name": "Flame Biter",
+      "image": "%url%Flame Biter.png",
+      "type": "GRAPPLING_HOOK",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 28,
+        "expDmg": [
+          25,
+          35
+        ],
+        "heaDmg": 31,
+        "range": [
+          2,
+          6
+        ],
+        "uses": 2,
+        "eneCost": 10,
+        "heaCost": 15
+      }
+    },
+    {
+      "id": 47,
+      "name": "Shock Biter",
+      "image": "%url%Shock Biter.png",
+      "type": "GRAPPLING_HOOK",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 28,
+        "eleDmg": [
+          25,
+          35
+        ],
+        "eneDmg": 31,
+        "range": [
+          2,
+          6
+        ],
+        "uses": 2,
+        "eneCost": 15,
+        "heaCost": 10
+      }
+    },
+    {
+      "id": 48,
+      "name": "Titanium Skeleton I",
+      "image": "%url%Titanium Skeleton I.png",
+      "type": "MODULE",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "health": 7998
+      }
+    },
+    {
+      "id": 49,
+      "name": "Platinum Skeleton II",
+      "image": "%url%Platinum Skeleton II.png",
+      "type": "MODULE",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 29,
+        "health": 84
+      }
+    },
+    {
+      "id": 50,
+      "name": "Platinum Skeleton III",
+      "image": "%url%Platinum Skeleton III.png",
+      "type": "MODULE",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 31,
+        "health": 90
+      }
+    },
+    {
+      "id": 51,
+      "name": "Energy Generator I",
+      "image": "%url%Energy Generator I.png",
+      "type": "MODULE",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 43,
+        "eneCap": 35,
+        "eneReg": 18
+      }
+    },
+    {
+      "id": 52,
+      "name": "Energy Generator II",
+      "image": "%url%Energy Generator II.png",
+      "type": "MODULE",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 46,
+        "eneCap": 38,
+        "eneReg": 19
+      }
+    },
+    {
+      "id": 53,
+      "name": "Engine Booster I",
+      "image": "%url%Engine Booster I.png",
+      "type": "MODULE",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 49,
+        "heaCap": 40,
+        "heaCol": 21
+      }
+    },
+    {
+      "id": 54,
+      "name": "Engine Booster II",
+      "image": "%url%Engine Booster II.png",
+      "type": "MODULE",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 52,
+        "heaCap": 43,
+        "heaCol": 22
+      }
+    },
+    {
+      "id": 55,
+      "name": "Energy & Heat Booster I",
+      "image": "%url%Energy & Heat Booster I.png",
+      "type": "MODULE",
+      "element": "COMBINED",
+      "transform_range": "M",
+      "stats": {
+        "weight": 53,
+        "eneCap": 22,
+        "eneReg": 11,
+        "heaCap": 22,
+        "heaCol": 11
+      }
+    },
+    {
+      "id": 56,
+      "name": "Mega Bullet Storage I",
+      "image": "%url%Mega Bullet Storage I.png",
+      "type": "MODULE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 45,
+        "bulletsCap": 65
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 57,
+      "name": "Mega Bullet Storage II",
+      "image": "%url%Mega Bullet Storage II.png",
+      "type": "MODULE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 8,
+        "bulletsCap": 7000
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 58,
+      "name": "Mega Rocket Storage I",
+      "image": "%url%Mega Rocket Storage I.png",
+      "type": "MODULE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 45,
+        "rocketsCap": 65
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 59,
+      "name": "Mega Rocket Storage II",
+      "image": "%url%Mega Rocket Storage II.png",
+      "type": "MODULE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 8,
+        "rocketsCap": 7000
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 60,
+      "name": "Invulnerability Mark I",
+      "image": "%url%Invulnerability Mark I.png",
+      "type": "MODULE",
+      "element": "COMBINED",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "phyRes": 1000,
+        "expRes": 1000,
+        "eleRes": 1000
+      }
+    },
+    {
+      "id": 61,
+      "name": "Invulnerability Mark II",
+      "image": "%url%Invulnerability Mark II.png",
+      "type": "MODULE",
+      "element": "COMBINED",
+      "transform_range": "M",
+      "stats": {
+        "weight": 51,
+        "phyRes": 11,
+        "expRes": 11,
+        "eleRes": 11
+      }
+    },
+    {
+      "id": 62,
+      "name": "Newbie",
+      "image": "%url%Newbie.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 1,
+      "stats": {
+        "weight": 80,
+        "health": 108,
+        "eneCap": 15,
+        "eneReg": 5,
+        "heaCap": 15,
+        "heaCol": 5
+      },
+      "gold_price": 200
+    },
+    {
+      "id": 63,
+      "name": "Vector",
+      "image": "%url%Vector.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 1,
+      "stats": {
+        "weight": 92,
+        "health": 120,
+        "eneCap": 20,
+        "eneReg": 5,
+        "heaCap": 20,
+        "heaCol": 5
+      },
+      "element": "PHYSICAL",
+      "gold_price": 375
+    },
+    {
+      "id": 64,
+      "name": "Commander",
+      "image": "%url%Commander.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 2,
+      "stats": {
+        "weight": 107,
+        "health": 120,
+        "eneCap": 30,
+        "eneReg": 6,
+        "heaCap": 25,
+        "heaCol": 6
+      },
+      "element": "ELECTRIC",
+      "gold_price": 1150
+    },
+    {
+      "id": 65,
+      "name": "Spector",
+      "image": "%url%Spector.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 2,
+      "stats": {
+        "weight": 108,
+        "health": 132,
+        "eneCap": 25,
+        "eneReg": 6,
+        "heaCap": 25,
+        "heaCol": 6
+      },
+      "element": "PHYSICAL",
+      "gold_price": 1150
+    },
+    {
+      "id": 66,
+      "name": "Metal box",
+      "image": "%url%Metal Box.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 112,
+        "health": 144,
+        "eneCap": 25,
+        "eneReg": 6,
+        "heaCap": 25,
+        "heaCol": 6
+      },
+      "element": "PHYSICAL",
+      "gold_price": 4000
+    },
+    {
+      "id": 67,
+      "name": "Breach",
+      "image": "%url%Breach.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 114,
+        "health": 132,
+        "eneCap": 30,
+        "eneReg": 8,
+        "heaCap": 25,
+        "heaCol": 6
+      },
+      "element": "ELECTRIC",
+      "gold_price": 4000
+    },
+    {
+      "id": 68,
+      "name": "Fence",
+      "image": "%url%Fence.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 124,
+        "health": 144,
+        "eneCap": 30,
+        "eneReg": 7,
+        "heaCap": 25,
+        "heaCol": 7,
+        "phyRes": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 6000
+    },
+    {
+      "id": 69,
+      "name": "Skeletor",
+      "image": "%url%Skeletor.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 118,
+        "health": 138,
+        "eneCap": 30,
+        "eneReg": 7,
+        "heaCap": 30,
+        "heaCol": 7
+      },
+      "element": "PHYSICAL",
+      "gold_price": 6000
+    },
+    {
+      "id": 70,
+      "name": "Zyborg",
+      "image": "%url%Zyborg.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 127,
+        "health": 150,
+        "eneCap": 25,
+        "eneReg": 7,
+        "heaCap": 35,
+        "heaCol": 8,
+        "expRes": 2
+      },
+      "element": "EXPLOSIVE",
+      "tokens_price": 6
+    },
+    {
+      "id": 71,
+      "name": "Two Head",
+      "image": "%url%Two Head.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 144,
+        "health": 180,
+        "eneCap": 35,
+        "eneReg": 8,
+        "heaCap": 30,
+        "heaCol": 8
+      },
+      "element": "PHYSICAL",
+      "gold_price": 18450
+    },
+    {
+      "id": 72,
+      "name": "Capsule",
+      "image": "%url%Capsule.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 142,
+        "health": 150,
+        "eneCap": 40,
+        "eneReg": 8,
+        "heaCap": 35,
+        "heaCol": 10
+      },
+      "element": "ELECTRIC",
+      "gold_price": 18450
+    },
+    {
+      "id": 73,
+      "name": "Executioner",
+      "image": "%url%Executioner.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 143,
+        "health": 162,
+        "eneCap": 35,
+        "eneReg": 9,
+        "heaCap": 35,
+        "heaCol": 9
+      },
+      "element": "PHYSICAL",
+      "gold_price": 18450
+    },
+    {
+      "id": 74,
+      "name": "Juggernaut",
+      "image": "%url%Juggernaut.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 147,
+        "health": 180,
+        "eneCap": 35,
+        "eneReg": 9,
+        "heaCap": 35,
+        "heaCol": 9
+      },
+      "element": "PHYSICAL",
+      "gold_price": 27700
+    },
+    {
+      "id": 75,
+      "name": "Ironclad",
+      "image": "%url%Ironclad.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 147,
+        "health": 168,
+        "eneCap": 35,
+        "eneReg": 9,
+        "heaCap": 40,
+        "heaCol": 10
+      },
+      "element": "PHYSICAL",
+      "gold_price": 27700
+    },
+    {
+      "id": 76,
+      "name": "Alien",
+      "image": "%url%Alien.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 152,
+        "health": 174,
+        "eneCap": 40,
+        "eneReg": 8,
+        "heaCap": 40,
+        "heaCol": 8,
+        "eleRes": 2
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 12
+    },
+    {
+      "id": 77,
+      "name": "Blood Shot",
+      "image": "%url%Blood Shot.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 157,
+        "health": 174,
+        "eneCap": 40,
+        "eneReg": 9,
+        "heaCap": 45,
+        "heaCol": 9,
+        "bulletsCap": 5,
+        "expRes": 3
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 78,
+      "name": "Threetop",
+      "image": "%url%Threetop.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 180,
+        "health": 198,
+        "eneCap": 50,
+        "eneReg": 14,
+        "heaCap": 40,
+        "heaCol": 10
+      },
+      "element": "PHYSICAL",
+      "gold_price": 34600
+    },
+    {
+      "id": 79,
+      "name": "Robot",
+      "image": "%url%Robot.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 180,
+        "health": 198,
+        "eneCap": 40,
+        "eneReg": 10,
+        "heaCap": 50,
+        "heaCol": 14
+      },
+      "element": "EXPLOSIVE",
+      "gold_price": 34600
+    },
+    {
+      "id": 80,
+      "name": "Samurai",
+      "image": "%url%Samurai.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 180,
+        "health": 210,
+        "eneCap": 45,
+        "eneReg": 10,
+        "heaCap": 45,
+        "heaCol": 10
+      },
+      "element": "PHYSICAL",
+      "gold_price": 34600
+    },
+    {
+      "id": 81,
+      "name": "Ruby",
+      "image": "%url%Ruby.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 189,
+        "health": 210,
+        "eneCap": 35,
+        "eneReg": 10,
+        "heaCap": 55,
+        "heaCol": 14,
+        "expRes": 2
+      },
+      "element": "EXPLOSIVE",
+      "gold_price": 51900
+    },
+    {
+      "id": 82,
+      "name": "Emerald",
+      "image": "%url%Emerald.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 189,
+        "health": 210,
+        "eneCap": 55,
+        "eneReg": 14,
+        "heaCap": 35,
+        "heaCol": 10,
+        "eleRes": 2
+      },
+      "element": "ELECTRIC",
+      "gold_price": 51900
+    },
+    {
+      "id": 83,
+      "name": "Predator",
+      "image": "%url%Predator.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 189,
+        "health": 216,
+        "eneCap": 45,
+        "eneReg": 12,
+        "heaCap": 45,
+        "heaCol": 12,
+        "phyRes": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 20
+    },
+    {
+      "id": 84,
+      "name": "Soldier",
+      "image": "%url%Soldier.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 188,
+        "health": 216,
+        "eneCap": 50,
+        "eneReg": 13,
+        "heaCap": 50,
+        "heaCol": 13
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 20
+    },
+    {
+      "id": 85,
+      "name": "Scope",
+      "image": "%url%Scope.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 201,
+        "health": 222,
+        "eneCap": 45,
+        "eneReg": 12,
+        "heaCap": 55,
+        "heaCol": 14,
+        "bulletsCap": 5,
+        "rocketsCap": 5,
+        "expRes": 2,
+        "eleRes": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 86,
+      "name": "Gecko",
+      "image": "%url%Gecko.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 214,
+        "health": 246,
+        "eneCap": 50,
+        "eneReg": 12,
+        "heaCap": 55,
+        "heaCol": 14
+      },
+      "element": "PHYSICAL",
+      "gold_price": 45500
+    },
+    {
+      "id": 87,
+      "name": "Cobra",
+      "image": "%url%Cobra.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 213,
+        "health": 228,
+        "eneCap": 55,
+        "eneReg": 14,
+        "heaCap": 55,
+        "heaCol": 14
+      },
+      "element": "PHYSICAL",
+      "gold_price": 45500
+    },
+    {
+      "id": 88,
+      "name": "Cyclops",
+      "image": "%url%Cyclops.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 209,
+        "health": 210,
+        "eneCap": 70,
+        "eneReg": 15,
+        "heaCap": 50,
+        "heaCol": 12
+      },
+      "element": "PHYSICAL",
+      "gold_price": 68250
+    },
+    {
+      "id": 89,
+      "name": "Dragon",
+      "image": "%url%Dragon2.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 209,
+        "health": 216,
+        "eneCap": 50,
+        "eneReg": 10,
+        "heaCap": 70,
+        "heaCol": 15
+      },
+      "element": "PHYSICAL",
+      "gold_price": 68250
+    },
+    {
+      "id": 90,
+      "name": "Golden Eye",
+      "image": "%url%Golden Eye.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 224,
+        "health": 258,
+        "eneCap": 60,
+        "eneReg": 15,
+        "heaCap": 50,
+        "heaCol": 13,
+        "eleRes": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 28
+    },
+    {
+      "id": 91,
+      "name": "Raptor",
+      "image": "%url%Raptor.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 223,
+        "health": 252,
+        "eneCap": 45,
+        "eneReg": 12,
+        "heaCap": 65,
+        "heaCol": 17,
+        "expRes": 3
+      },
+      "element": "EXPLOSIVE",
+      "tokens_price": 28
+    },
+    {
+      "id": 92,
+      "name": "Lucifer",
+      "image": "%url%Lucifer.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 241,
+        "health": 258,
+        "eneCap": 60,
+        "eneReg": 15,
+        "heaCap": 65,
+        "heaCol": 16,
+        "rocketsCap": 15,
+        "phyRes": 4
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 93,
+      "name": "Gladiator",
+      "image": "%url%Gladiator.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 238,
+        "health": 270,
+        "eneCap": 50,
+        "eneReg": 18,
+        "heaCap": 55,
+        "heaCol": 20,
+        "bulletsCap": 15,
+        "expRes": 2,
+        "eleRes": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 94,
+      "name": "Metal Head",
+      "image": "%url%Metal Head.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 252,
+        "health": 300,
+        "eneCap": 60,
+        "eneReg": 15,
+        "heaCap": 60,
+        "heaCol": 15
+      },
+      "element": "PHYSICAL",
+      "gold_price": 53300
+    },
+    {
+      "id": 95,
+      "name": "Twin Turbine",
+      "image": "%url%Twin Turbine.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 251,
+        "health": 264,
+        "eneCap": 65,
+        "eneReg": 17,
+        "heaCap": 65,
+        "heaCol": 17
+      },
+      "element": "PHYSICAL",
+      "gold_price": 53300
+    },
+    {
+      "id": 96,
+      "name": "The Light",
+      "image": "%url%The Light.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 249,
+        "health": 240,
+        "eneCap": 80,
+        "eneReg": 20,
+        "heaCap": 60,
+        "heaCol": 14
+      },
+      "element": "PHYSICAL",
+      "gold_price": 53300
+    },
+    {
+      "id": 97,
+      "name": "Engine",
+      "image": "%url%Engine.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 256,
+        "health": 276,
+        "eneCap": 60,
+        "eneReg": 16,
+        "heaCap": 75,
+        "heaCol": 19
+      },
+      "element": "PHYSICAL",
+      "gold_price": 79950
+    },
+    {
+      "id": 98,
+      "name": "Goliath",
+      "image": "%url%Goliath.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 255,
+        "health": 282,
+        "eneCap": 85,
+        "eneReg": 20,
+        "heaCap": 50,
+        "heaCol": 12
+      },
+      "element": "ELECTRIC",
+      "gold_price": 79950
+    },
+    {
+      "id": 99,
+      "name": "Blood Diamond",
+      "image": "%url%Blood Diamond.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 259,
+        "health": 252,
+        "eneCap": 65,
+        "eneReg": 17,
+        "heaCap": 80,
+        "heaCol": 20,
+        "expRes": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 36
+    },
+    {
+      "id": 100,
+      "name": "Ember",
+      "image": "%url%Ember.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 263,
+        "health": 288,
+        "eneCap": 65,
+        "eneReg": 17,
+        "heaCap": 70,
+        "heaCol": 18,
+        "phyRes": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 36
+    },
+    {
+      "id": 101,
+      "name": "Roman",
+      "image": "%url%Roman.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 273,
+        "health": 294,
+        "eneCap": 80,
+        "eneReg": 18,
+        "heaCap": 60,
+        "heaCol": 15,
+        "bulletsCap": 10,
+        "rocketsCap": 10,
+        "eleRes": 5
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 102,
+      "name": "Shielded",
+      "image": "%url%Shielded.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 276,
+        "health": 306,
+        "eneCap": 65,
+        "eneReg": 18,
+        "heaCap": 70,
+        "heaCol": 20,
+        "bulletsCap": 10,
+        "phyRes": 2,
+        "expRes": 2,
+        "eleRes": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 103,
+      "name": "Beetle",
+      "image": "%url%Beetle.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 294,
+        "health": 294,
+        "eneCap": 70,
+        "eneReg": 18,
+        "heaCap": 90,
+        "heaCol": 22
+      },
+      "element": "EXPLOSIVE",
+      "gold_price": 59200
+    },
+    {
+      "id": 104,
+      "name": "Barracu",
+      "image": "%url%Barracu.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 294,
+        "health": 294,
+        "eneCap": 80,
+        "eneReg": 20,
+        "heaCap": 80,
+        "heaCol": 20
+      },
+      "element": "PHYSICAL",
+      "gold_price": 59200
+    },
+    {
+      "id": 105,
+      "name": "Electron Power",
+      "image": "%url%Electron Power.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 290,
+        "health": 306,
+        "eneCap": 100,
+        "eneReg": 25,
+        "heaCap": 55,
+        "heaCol": 16
+      },
+      "element": "PHYSICAL",
+      "gold_price": 88800
+    },
+    {
+      "id": 106,
+      "name": "Flame Power",
+      "image": "%url%Flame Power.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 290,
+        "health": 306,
+        "eneCap": 55,
+        "eneReg": 16,
+        "heaCap": 100,
+        "heaCol": 25
+      },
+      "element": "PHYSICAL",
+      "gold_price": 88800
+    },
+    {
+      "id": 107,
+      "name": "Mega Gladiator",
+      "image": "%url%Mega Gladiator.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 308,
+        "health": 330,
+        "eneCap": 85,
+        "eneReg": 20,
+        "heaCap": 75,
+        "heaCol": 18,
+        "phyRes": 5
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 44
+    },
+    {
+      "id": 108,
+      "name": "Mamut",
+      "image": "%url%Mamut.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 307,
+        "health": 318,
+        "eneCap": 80,
+        "eneReg": 20,
+        "heaCap": 80,
+        "heaCol": 20,
+        "rocketsCap": 20,
+        "expRes": 3,
+        "eleRes": 3
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 109,
+      "name": "Dragon",
+      "image": "%url%Dragon.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 297,
+        "health": 324,
+        "eneCap": 75,
+        "eneReg": 18,
+        "heaCap": 85,
+        "heaCol": 22,
+        "bulletsCap": 15,
+        "rocketsCap": 15
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 110,
+      "name": "Hulk",
+      "image": "%url%Hulk.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 332,
+        "health": 348,
+        "eneCap": 110,
+        "eneReg": 26,
+        "heaCap": 65,
+        "heaCol": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 62000
+    },
+    {
+      "id": 111,
+      "name": "Steel Wolf",
+      "image": "%url%Steel Wolf.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 332,
+        "health": 330,
+        "eneCap": 90,
+        "eneReg": 23,
+        "heaCap": 90,
+        "heaCol": 23
+      },
+      "element": "PHYSICAL",
+      "gold_price": 63850
+    },
+    {
+      "id": 112,
+      "name": "Nelly Mcrockets",
+      "image": "%url%Nelly McRockets.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 333,
+        "health": 336,
+        "eneCap": 85,
+        "eneReg": 22,
+        "heaCap": 100,
+        "heaCol": 25
+      },
+      "element": "PHYSICAL",
+      "gold_price": 95800
+    },
+    {
+      "id": 113,
+      "name": "Buster",
+      "image": "%url%Buster.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 335,
+        "health": 372,
+        "eneCap": 90,
+        "eneReg": 22,
+        "heaCap": 85,
+        "heaCol": 22
+      },
+      "element": "PHYSICAL",
+      "gold_price": 95800
+    },
+    {
+      "id": 114,
+      "name": "Chief",
+      "image": "%url%Chief.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 342,
+        "health": 330,
+        "eneCap": 105,
+        "eneReg": 25,
+        "heaCap": 90,
+        "heaCol": 23,
+        "phyRes": 4
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 52
+    },
+    {
+      "id": 115,
+      "name": "Dactyl",
+      "image": "%url%Dactyl.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 358,
+        "health": 360,
+        "eneCap": 95,
+        "eneReg": 23,
+        "heaCap": 95,
+        "heaCol": 23,
+        "bulletsCap": 30,
+        "phyRes": 6
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 116,
+      "name": "Sapphire",
+      "image": "%url%Sapphire.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 359,
+        "health": 354,
+        "eneCap": 115,
+        "eneReg": 26,
+        "heaCap": 80,
+        "heaCol": 20,
+        "bulletsCap": 15,
+        "rocketsCap": 15,
+        "eleRes": 6
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 117,
+      "name": "Apollo",
+      "image": "%url%Apollo.png",
+      "type": "TORSO",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 364,
+        "health": 360,
+        "eneCap": 100,
+        "eneReg": 25,
+        "heaCap": 100,
+        "heaCol": 25
+      },
+      "element": "PHYSICAL",
+      "gold_price": 67500
+    },
+    {
+      "id": 118,
+      "name": "Fire Guardian",
+      "image": "%url%Fire Guardian.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 366,
+        "health": 372,
+        "eneCap": 80,
+        "eneReg": 20,
+        "heaCap": 125,
+        "heaCol": 30
+      },
+      "element": "PHYSICAL",
+      "gold_price": 101250
+    },
+    {
+      "id": 119,
+      "name": "Electric Guardian",
+      "image": "%url%Electric Guardian.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 366,
+        "health": 372,
+        "eneCap": 125,
+        "eneReg": 30,
+        "heaCap": 80,
+        "heaCol": 20
+      },
+      "element": "PHYSICAL",
+      "gold_price": 101250
+    },
+    {
+      "id": 120,
+      "name": "Vulcano",
+      "image": "%url%Vulcano.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 379,
+        "health": 384,
+        "eneCap": 90,
+        "eneReg": 22,
+        "heaCap": 120,
+        "heaCol": 30,
+        "expRes": 4
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 60
+    },
+    {
+      "id": 121,
+      "name": "HAL",
+      "image": "%url%HAL.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 373,
+        "health": 372,
+        "eneCap": 110,
+        "eneReg": 28,
+        "heaCap": 110,
+        "heaCol": 28
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 60
+    },
+    {
+      "id": 122,
+      "name": "Spider",
+      "image": "%url%Spider.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 394,
+        "health": 390,
+        "eneCap": 110,
+        "eneReg": 26,
+        "heaCap": 130,
+        "heaCol": 30,
+        "expRes": 3,
+        "eleRes": 3
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 123,
+      "name": "Ultra Gladiator",
+      "image": "%url%Ultra Gladiator.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 382,
+        "health": 408,
+        "eneCap": 100,
+        "eneReg": 25,
+        "heaCap": 110,
+        "heaCol": 26,
+        "bulletsCap": 20,
+        "rocketsCap": 20
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 124,
+      "name": "Galaxus Model A",
+      "image": "%url%Galaxus Model A.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 395,
+        "health": 432,
+        "eneCap": 95,
+        "eneReg": 24,
+        "heaCap": 110,
+        "heaCol": 26,
+        "bulletsCap": 25,
+        "phyRes": 6
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 125,
+      "name": "Galaxus Model B",
+      "image": "%url%Galaxus Model B.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 395,
+        "health": 432,
+        "eneCap": 95,
+        "eneReg": 24,
+        "heaCap": 110,
+        "heaCol": 26,
+        "rocketsCap": 25,
+        "expRes": 6
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 126,
+      "name": "Galaxus Model C",
+      "image": "%url%Galaxus Model C.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 396,
+        "health": 432,
+        "eneCap": 135,
+        "eneReg": 30,
+        "heaCap": 90,
+        "heaCol": 24,
+        "eleRes": 6
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 127,
+      "name": "Metal Walkers",
+      "image": "%url%Metal Walkers.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 1,
+      "stats": {
+        "weight": 9,
+        "phyDmg": [
+          20,
+          20
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 100
+    },
+    {
+      "id": 128,
+      "name": "Sky Walkers",
+      "image": "%url%Sky Walkers.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 10,
+        "phyDmg": [
+          23,
+          23
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 1000
+    },
+    {
+      "id": 129,
+      "name": "Rolin",
+      "image": "%url%Rolin.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 14,
+        "phyDmg": [
+          26,
+          26
+        ],
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 1000
+    },
+    {
+      "id": 130,
+      "name": "Flatfoot",
+      "image": "%url%Flatfoot.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 14,
+        "health": 6,
+        "phyDmg": [
+          26,
+          26
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 1500
+    },
+    {
+      "id": 131,
+      "name": "Steel Walkers",
+      "image": "%url%Steel Walkers.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 18,
+        "health": 6,
+        "phyDmg": [
+          29,
+          29
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 6
+    },
+    {
+      "id": 132,
+      "name": "Elephant",
+      "image": "%url%Elephant.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 12,
+        "phyDmg": [
+          27,
+          27
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 5250
+    },
+    {
+      "id": 133,
+      "name": "Trio-Wheels",
+      "image": "%url%Trio-Wheels.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 17,
+        "phyDmg": [
+          31,
+          31
+        ],
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 5250
+    },
+    {
+      "id": 134,
+      "name": "Springs",
+      "image": "%url%Springs.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 23,
+        "health": 12,
+        "phyDmg": [
+          31,
+          31
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 7900
+    },
+    {
+      "id": 135,
+      "name": "Surf Board",
+      "image": "%url%Surf Board.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 30,
+        "health": 12,
+        "phyDmg": [
+          34,
+          34
+        ],
+        "push": 1,
+        "walk": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 12
+    },
+    {
+      "id": 136,
+      "name": "Heavy Legs",
+      "image": "%url%Heavy Legs.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 16,
+        "phyDmg": [
+          33,
+          33
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 9800
+    },
+    {
+      "id": 137,
+      "name": "Carriers",
+      "image": "%url%Carriers.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 21,
+        "phyDmg": [
+          37,
+          37
+        ],
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 9800
+    },
+    {
+      "id": 138,
+      "name": "Ultra Springs",
+      "image": "%url%Ultra Springs.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 27,
+        "health": 12,
+        "phyDmg": [
+          37,
+          37
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 14700
+    },
+    {
+      "id": 139,
+      "name": "Fort Wall",
+      "image": "%url%Fort Wall.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 32,
+        "health": 24,
+        "phyDmg": [
+          40,
+          40
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 140,
+      "name": "Grasshopper",
+      "image": "%url%Grasshopper.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 23,
+        "phyDmg": [
+          38,
+          38
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 12900
+    },
+    {
+      "id": 141,
+      "name": "Hoofs",
+      "image": "%url%Hoofs.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 29,
+        "health": 12,
+        "phyDmg": [
+          40,
+          40
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 19350
+    },
+    {
+      "id": 142,
+      "name": "Electro Wheels",
+      "image": "%url%Electro Wheels.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 34,
+        "health": 14,
+        "eleDmg": [
+          40,
+          40
+        ],
+        "eneDmg": 12,
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 28
+    },
+    {
+      "id": 143,
+      "name": "Hot Wheels",
+      "image": "%url%Hot Wheels.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 33,
+        "health": 14,
+        "expDmg": [
+          40,
+          40
+        ],
+        "heaDmg": 12,
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 28
+    },
+    {
+      "id": 144,
+      "name": "High Deff",
+      "image": "%url%High Deff.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 22,
+        "phyDmg": [
+          44,
+          44
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 15100
+    },
+    {
+      "id": 145,
+      "name": "Tank Base",
+      "image": "%url%Tank Base.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 28,
+        "phyDmg": [
+          47,
+          47
+        ],
+        "push": 1,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 15100
+    },
+    {
+      "id": 146,
+      "name": "Walkmans",
+      "image": "%url%Walkmans.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 37,
+        "health": 18,
+        "phyDmg": [
+          47,
+          47
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 22650
+    },
+    {
+      "id": 147,
+      "name": "Tappings",
+      "image": "%url%Tappings.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 53,
+        "health": 36,
+        "phyDmg": [
+          48,
+          48
+        ],
+        "push": 1,
+        "walk": 2,
+        "jump": 3
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 148,
+      "name": "Steel Trunks",
+      "image": "%url%Steel Trunks.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 24,
+        "phyDmg": [
+          49,
+          49
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "gold_price": 16800
+    },
+    {
+      "id": 149,
+      "name": "Fortress Floors",
+      "image": "%url%Fortress Floors.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 37,
+        "phyDmg": [
+          51,
+          51
+        ],
+        "push": 2,
+        "walk": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 16800
+    },
+    {
+      "id": 150,
+      "name": "Kickers",
+      "image": "%url%Kickers.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 43,
+        "health": 24,
+        "phyDmg": [
+          52,
+          52
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 25200
+    },
+    {
+      "id": 151,
+      "name": "Stompers",
+      "image": "%url%Stompers.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 38,
+        "health": 36,
+        "phyDmg": [
+          53,
+          53
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 44
+    },
+    {
+      "id": 152,
+      "name": "Giga Feet",
+      "image": "%url%Giga Feet.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 34,
+        "phyDmg": [
+          55,
+          55
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 18100
+    },
+    {
+      "id": 153,
+      "name": "Two Steps",
+      "image": "%url%Two Steps.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 47,
+        "health": 24,
+        "phyDmg": [
+          58,
+          58
+        ],
+        "push": 1,
+        "walk": 2,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 27150
+    },
+    {
+      "id": 154,
+      "name": "Golden Springs",
+      "image": "%url%Golden Springs.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 73,
+        "health": 36,
+        "phyDmg": [
+          60,
+          60
+        ],
+        "push": 2,
+        "walk": 2,
+        "jump": 3
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 52
+    },
+    {
+      "id": 155,
+      "name": "Ultra Stompers",
+      "image": "%url%Ultra Stompers.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 50,
+        "health": 48,
+        "phyDmg": [
+          63,
+          63
+        ],
+        "push": 2,
+        "walk": 1
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 156,
+      "name": "Mammoth Paws",
+      "image": "%url%Mammoth Paws.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 38,
+        "phyDmg": [
+          60,
+          60
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 19150
+    },
+    {
+      "id": 157,
+      "name": "Pipe feet",
+      "image": "%url%Pipe Feet.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 50,
+        "health": 24,
+        "phyDmg": [
+          63,
+          63
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL",
+      "gold_price": 28750
+    },
+    {
+      "id": 158,
+      "name": "Mountain Feet",
+      "image": "%url%Mountain Feet.png",
+      "type": "LEGS",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 47,
+        "health": 42,
+        "phyDmg": [
+          65,
+          65
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "PHYSICAL",
+      "tokens_price": 60
+    },
+    {
+      "id": 159,
+      "name": "Quake Feet",
+      "image": "%url%Quake Feet.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 59,
+        "health": 36,
+        "phyDmg": [
+          80,
+          80
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 160,
+      "name": "Cannon feet",
+      "image": "%url%Cannon Feet.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 69,
+        "health": 72,
+        "phyDmg": [
+          65,
+          65
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 161,
+      "name": "Steel Stampede",
+      "image": "%url%Steel Stampede.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 61,
+        "health": 24,
+        "phyDmg": [
+          80,
+          80
+        ],
+        "push": 2,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 162,
+      "name": "Fire Stampede",
+      "image": "%url%Fire Stampede.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 74,
+        "health": 24,
+        "expDmg": [
+          60,
+          60
+        ],
+        "heaDmg": 25,
+        "push": 2,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 163,
+      "name": "Thunder Stampede",
+      "image": "%url%Thunder Stampede.png",
+      "type": "LEGS",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 74,
+        "health": 24,
+        "eleDmg": [
+          60,
+          60
+        ],
+        "eneDmg": 25,
+        "push": 2,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 164,
+      "name": "Laser Cannon",
+      "image": "%url%Laser Cannon.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 1,
+      "stats": {
+        "weight": 8,
+        "phyDmg": [
+          15,
+          15
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5
+      },
+      "gold_price": 100
+    },
+    {
+      "id": 165,
+      "name": "Plasma Gun",
+      "image": "%url%Plasma Gun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 1,
+      "stats": {
+        "weight": 7,
+        "phyDmg": [
+          20,
+          20
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "uses": 2,
+        "heaCost": 5
+      },
+      "gold_price": 125
+    },
+    {
+      "id": 166,
+      "name": "Twin Laser Cannon",
+      "image": "%url%Twin Laser Cannon.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 2,
+      "stats": {
+        "weight": 8,
+        "phyDmg": [
+          17,
+          17
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 8
+      },
+      "gold_price": 400
+    },
+    {
+      "id": 167,
+      "name": "Mini-Chaingun",
+      "image": "%url%Mini-Chaingun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 2,
+      "stats": {
+        "weight": 11,
+        "phyDmg": [
+          18,
+          27
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 6,
+        "bulletsCost": 5
+      },
+      "gold_price": 400
+    },
+    {
+      "id": 168,
+      "name": "Laser Cannon v3.0",
+      "image": "%url%Laser Cannon v3.0.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 8,
+        "phyDmg": [
+          18,
+          18
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 8
+      },
+      "gold_price": 1500
+    },
+    {
+      "id": 169,
+      "name": "Chaingun",
+      "image": "%url%Chaingun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 12,
+        "phyDmg": [
+          20,
+          30
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 7,
+        "bulletsCost": 5
+      },
+      "gold_price": 1500
+    },
+    {
+      "id": 170,
+      "name": "Shotgun",
+      "image": "%url%Shotgun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 16,
+        "phyDmg": [
+          27,
+          33
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "bulletsCost": 5
+      },
+      "gold_price": 1500
+    },
+    {
+      "id": 171,
+      "name": "Advanced Shotgun",
+      "image": "%url%Advanced Shotgun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 4,
+      "stats": {
+        "weight": 17,
+        "phyDmg": [
+          29,
+          36
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "bulletsCost": 5
+      },
+      "gold_price": 2800
+    },
+    {
+      "id": 172,
+      "name": "Spammer",
+      "image": "%url%Spammer.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 4,
+      "stats": {
+        "weight": 16,
+        "phyDmg": [
+          29,
+          36
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "bulletsCost": 5
+      },
+      "tokens_price": 8
+    },
+    {
+      "id": 173,
+      "name": "MaC Gun",
+      "image": "%url%MaC Gun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 5,
+      "stats": {
+        "weight": 15,
+        "phyDmg": [
+          23,
+          33
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 5
+      },
+      "gold_price": 3950
+    },
+    {
+      "id": 174,
+      "name": "Bully",
+      "image": "%url%Bully.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 10,
+        "phyDmg": [
+          14,
+          19
+        ],
+        "push": 3,
+        "range": [
+          1,
+          3
+        ],
+        "eneCost": 4,
+        "heaCost": 4
+      },
+      "gold_price": 4950
+    },
+    {
+      "id": 175,
+      "name": "Double Spammer",
+      "image": "%url%Double Spammer.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "R",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 17,
+        "phyDmg": [
+          30,
+          35
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "heaCost": 1,
+        "bulletsCost": 5
+      },
+      "gold_price": 7450
+    },
+    {
+      "id": 176,
+      "name": "Triple Spammer",
+      "image": "%url%Triple Spammer.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 8,
+      "stats": {
+        "weight": 25,
+        "phyDmg": [
+          50,
+          55
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "heaCost": 4,
+        "bulletsCost": 5
+      },
+      "gold_price": 9900
+    },
+    {
+      "id": 177,
+      "name": "Lin Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 9,
+      "stats": {
+        "weight": 18,
+        "phyDmg": [
+          30,
+          33
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 5
+      },
+      "gold_price": 7300
+    },
+    {
+      "id": 178,
+      "name": "Dino Rifle",
+      "image": "%url%Dino Rifle.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 9,
+      "stats": {
+        "weight": 20,
+        "phyDmg": [
+          28,
+          38
+        ],
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 9
+      }
+    },
+    {
+      "id": 179,
+      "name": "Shotgun Mark I",
+      "image": "%url%Shotgun Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 9,
+      "stats": {
+        "weight": 21,
+        "phyDmg": [
+          30,
+          40
+        ],
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 4,
+        "bulletsCost": 5
+      },
+      "tokens_price": 18
+    },
+    {
+      "id": 180,
+      "name": "Shotgun Mark II",
+      "image": "%url%Shotgun Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 22,
+        "phyDmg": [
+          32,
+          42
+        ],
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 5
+      },
+      "tokens_price": 20
+    },
+    {
+      "id": 181,
+      "name": "Back Blow",
+      "image": "%url%Back Blow.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 13,
+        "phyDmg": [
+          10,
+          16
+        ],
+        "push": 3,
+        "range": [
+          1,
+          3
+        ],
+        "uses": 3,
+        "eneCost": 5,
+        "heaCost": 5
+      },
+      "gold_price": 7950
+    },
+    {
+      "id": 182,
+      "name": "WiN Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 11,
+      "stats": {
+        "weight": 27,
+        "phyDmg": [
+          45,
+          60
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 10
+      },
+      "tokens_price": 22
+    },
+    {
+      "id": 183,
+      "name": "Small Yellow Laser",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 12,
+      "stats": {
+        "weight": 15,
+        "phyDmg": [
+          27,
+          27
+        ],
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 8
+      },
+      "gold_price": 9000
+    },
+    {
+      "id": 184,
+      "name": "Yellower",
+      "image": "%url%Yellower.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 12,
+      "stats": {
+        "weight": 16,
+        "phyDmg": [
+          45,
+          55
+        ],
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "uses": 2,
+        "heaCost": 13
+      },
+      "tokens_price": 24
+    },
+    {
+      "id": 185,
+      "name": "Machine Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 13,
+      "stats": {
+        "weight": 124,
+        "phyDmg": [
+          40,
+          45
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 186,
+      "name": "Yelloworm",
+      "image": "%url%Yelloworm.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 22,
+        "phyDmg": [
+          50,
+          50
+        ],
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 2,
+        "heaCost": 8
+      },
+      "tokens_price": 28
+    },
+    {
+      "id": 187,
+      "name": "Reinforced Shotgun",
+      "image": "%url%Reinforced Shotgun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 24,
+        "phyDmg": [
+          40,
+          50
+        ],
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "eneCost": 5,
+        "heaCost": 5,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 188,
+      "name": "Medium Yellow Laser",
+      "image": "%url%Medium Yellow Laser.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 15,
+      "stats": {
+        "weight": 24,
+        "phyDmg": [
+          43,
+          43
+        ],
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 10
+      }
+    },
+    {
+      "id": 189,
+      "name": "Double Machine Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 16,
+      "stats": {
+        "weight": 28,
+        "phyDmg": [
+          43,
+          53
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 1,
+        "bulletsCost": 10
+      },
+      "tokens_price": 32
+    },
+    {
+      "id": 190,
+      "name": "Large Yellow Laser",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 28,
+        "phyDmg": [
+          45,
+          45
+        ],
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 9
+      },
+      "tokens_price": 36
+    },
+    {
+      "id": 191,
+      "name": "Minigun",
+      "image": "%url%Minigun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 19,
+      "stats": {
+        "weight": 25,
+        "phyDmg": [
+          40,
+          50
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 10
+      },
+      "tokens_price": 38
+    },
+    {
+      "id": 192,
+      "name": "Quadroople Machine Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 19,
+      "stats": {
+        "weight": 32,
+        "phyDmg": [
+          55,
+          65
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 2,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 193,
+      "name": "Push",
+      "image": "%url%Push.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 20,
+      "stats": {
+        "weight": 24,
+        "phyDmg": [
+          20,
+          20
+        ],
+        "push": 4,
+        "range": [
+          1,
+          3
+        ],
+        "uses": 2,
+        "eneCost": 5,
+        "heaCost": 5
+      },
+      "gold_price": 12000
+    },
+    {
+      "id": 194,
+      "name": "Safe Shot",
+      "image": "%url%Safe Shot.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 21,
+      "stats": {
+        "weight": 46,
+        "phyDmg": [
+          60,
+          85
+        ],
+        "range": [
+          2,
+          4
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 195,
+      "name": "GAU-8A",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 34,
+        "phyDmg": [
+          60,
+          75
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 5,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 196,
+      "name": "Blow Back",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 23,
+      "stats": {
+        "weight": 32,
+        "phyDmg": [
+          25,
+          25
+        ],
+        "push": 5,
+        "range": [
+          1,
+          3
+        ],
+        "uses": 2,
+        "eneCost": 7,
+        "heaCost": 7
+      },
+      "gold_price": 12700
+    },
+    {
+      "id": 197,
+      "name": "Sure Shot",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 24,
+      "stats": {
+        "weight": 49,
+        "phyDmg": [
+          65,
+          88
+        ],
+        "range": [
+          2,
+          4
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 198,
+      "name": "Ultimate Gun",
+      "image": "%url%Ultimate Gun.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 25,
+      "stats": {
+        "weight": 41,
+        "phyDmg": [
+          70,
+          90
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 9,
+        "bulletsCost": 15
+      },
+      "tokens_price": 50
+    },
+    {
+      "id": 199,
+      "name": "Umpfifier",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 25,
+      "stats": {
+        "weight": 33,
+        "phyDmg": [
+          55,
+          83
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 12,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 200,
+      "name": "Saurus Rifle",
+      "image": "%url%Saurus Rifle.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 39,
+        "phyDmg": [
+          46,
+          62
+        ],
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 10
+      }
+    },
+    {
+      "id": 201,
+      "name": "Demolisher Mark I",
+      "image": "%url%Demolisher Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 56,
+        "phyDmg": [
+          65,
+          75
+        ],
+        "phyResDmg": 2,
+        "range": [
+          1,
+          3
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 202,
+      "name": "Yellow",
+      "image": "%url%Yellow.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 27,
+      "stats": {
+        "weight": 30,
+        "phyDmg": [
+          51,
+          67
+        ],
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 10
+      }
+    },
+    {
+      "id": 203,
+      "name": "Yellow Shredder Beam",
+      "image": "%url%Yellow Shredder Beam.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 32,
+        "phyDmg": [
+          53,
+          53
+        ],
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 16
+      },
+      "tokens_price": 56
+    },
+    {
+      "id": 204,
+      "name": "Caseus",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 31,
+        "phyDmg": [
+          62,
+          62
+        ],
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 11
+      }
+    },
+    {
+      "id": 205,
+      "name": "Iron Shredder",
+      "image": "%url%Iron Shredder.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 46,
+        "phyDmg": [
+          68,
+          103
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 206,
+      "name": "Demolisher Mark II",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 60,
+        "phyDmg": [
+          70,
+          80
+        ],
+        "phyResDmg": 2,
+        "range": [
+          1,
+          3
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 207,
+      "name": "Rail Gun",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 29,
+      "stats": {
+        "weight": 40,
+        "phyDmg": [
+          72,
+          102
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 15,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 208,
+      "name": "Yellow Beam",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 32,
+        "phyDmg": [
+          60,
+          70
+        ],
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 11
+      }
+    },
+    {
+      "id": 209,
+      "name": "Iron Shredder",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 46,
+        "phyDmg": [
+          76,
+          114
+        ],
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 9,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 210,
+      "name": "Resistance Drainer",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 32,
+        "phyResDmg": 8,
+        "uses": 1,
+        "heaCost": 12
+      },
+      "gold_price": 14000
+    },
+    {
+      "id": 211,
+      "name": "Shotgun X Mark I",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 59,
+        "phyDmg": [
+          20,
+          170
+        ],
+        "push": 2,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 10,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 212,
+      "name": "Grenade Launcher Mark I",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 47,
+        "phyDmg": [
+          60,
+          72
+        ],
+        "phyResDmg": 2,
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "eneCost": 6,
+        "heaCost": 12
+      },
+      "tokens_price": 60
+    },
+    {
+      "id": 213,
+      "name": "Resistance Drainer",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 36,
+        "phyResDmg": 9,
+        "uses": 1,
+        "heaCost": 12
+      },
+      "tokens_price": 60
+    },
+    {
+      "id": 214,
+      "name": "Demolisher Mark III",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 68,
+        "phyDmg": [
+          75,
+          85
+        ],
+        "phyResDmg": 3,
+        "range": [
+          1,
+          3
+        ],
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 215,
+      "name": "Railgun",
+      "image": "%url%Railgun.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 13,
+        "expDmg": [
+          20,
+          25
+        ],
+        "heaDmg": 3,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 3,
+        "heaCost": 8
+      },
+      "gold_price": 2250
+    },
+    {
+      "id": 216,
+      "name": "Flame Thrower",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 3,
+      "stats": {
+        "weight": 10,
+        "expDmg": [
+          12,
+          24
+        ],
+        "heaDmg": 10,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 2,
+        "heaCost": 6
+      },
+      "tokens_price": 6
+    },
+    {
+      "id": 217,
+      "name": "Red Plasma Gun",
+      "image": "%url%RED Plasma Gun.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 4,
+      "stats": {
+        "weight": 17,
+        "expDmg": [
+          18,
+          22
+        ],
+        "heaDmg": 5,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 10
+      },
+      "gold_price": 2800
+    },
+    {
+      "id": 218,
+      "name": "Double Plasma Gun",
+      "image": "%url%Double Plasma Gun.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 5,
+      "stats": {
+        "weight": 15,
+        "expDmg": [
+          18,
+          22
+        ],
+        "heaDmg": 5,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 3,
+        "heaCost": 9
+      },
+      "gold_price": 3950
+    },
+    {
+      "id": 219,
+      "name": "Roast",
+      "image": "%url%Roast.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 5,
+      "stats": {
+        "weight": 19,
+        "expDmg": [
+          26,
+          32
+        ],
+        "heaDmg": 18,
+        "range": [
+          3,
+          4
+        ],
+        "uses": 2,
+        "heaCost": 11
+      },
+      "gold_price": 5950
+    },
+    {
+      "id": 220,
+      "name": "Light Gauss Rifle",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 5,
+      "stats": {
+        "weight": 14,
+        "expDmg": [
+          20,
+          26
+        ],
+        "heaDmg": 4,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 9,
+        "rocketsCost": 5
+      }
+    },
+    {
+      "id": 221,
+      "name": "Fire Starter",
+      "image": "%url%Fire Starter.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 6,
+      "stats": {
+        "weight": 14,
+        "expDmg": [
+          24,
+          30
+        ],
+        "heaDmg": 12,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 2,
+        "heaCost": 6
+      },
+      "gold_price": 4950
+    },
+    {
+      "id": 222,
+      "name": "Rocket Hand",
+      "image": "%url%Rocket Hand.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 7,
+      "stats": {
+        "weight": 15,
+        "expDmg": [
+          22,
+          27
+        ],
+        "heaDmg": 2,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 5
+      },
+      "gold_price": 5800
+    },
+    {
+      "id": 223,
+      "name": "Gauss Rifle",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 7,
+      "stats": {
+        "weight": 23,
+        "expDmg": [
+          28,
+          34
+        ],
+        "heaDmg": 9,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 8,
+        "rocketsCost": 5
+      }
+    },
+    {
+      "id": 224,
+      "name": "Flame Thrower v3.0",
+      "image": "%url%Flame Thrower v3.0.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 8,
+      "stats": {
+        "weight": 20,
+        "expDmg": [
+          23,
+          28
+        ],
+        "heaDmg": 15,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 5
+      },
+      "gold_price": 6600
+    },
+    {
+      "id": 225,
+      "name": "Red Eyes",
+      "image": "%url%Red Eyes.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 8,
+      "stats": {
+        "weight": 17,
+        "expDmg": [
+          20,
+          25
+        ],
+        "heaDmg": 4,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 15
+      },
+      "gold_price": 6600
+    },
+    {
+      "id": 226,
+      "name": "Lava Blaster",
+      "image": "%url%Lava Blaster.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 9,
+      "stats": {
+        "weight": 26,
+        "expDmg": [
+          22,
+          27
+        ],
+        "heaDmg": 8,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 11
+      },
+      "gold_price": 7300
+    },
+    {
+      "id": 227,
+      "name": "Heavy Gauss Rifle",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 9,
+      "stats": {
+        "weight": 22,
+        "expDmg": [
+          32,
+          40
+        ],
+        "heaDmg": 8,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 15,
+        "rocketsCost": 5
+      },
+      "gold_price": 7300
+    },
+    {
+      "id": 228,
+      "name": "Flame Thrower v4.0",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 21,
+        "expDmg": [
+          27,
+          27
+        ],
+        "heaDmg": 16,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 5
+      },
+      "gold_price": 7950
+    },
+    {
+      "id": 229,
+      "name": "Big Bertha",
+      "image": "%url%Big Bertha.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 10,
+      "stats": {
+        "weight": 32,
+        "expDmg": [
+          30,
+          30
+        ],
+        "heaDmg": 13,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 13
+      },
+      "tokens_price": 20
+    },
+    {
+      "id": 230,
+      "name": "The Dragon",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 11,
+      "stats": {
+        "weight": 22,
+        "expDmg": [
+          29,
+          29
+        ],
+        "heaDmg": 17,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 5
+      },
+      "gold_price": 8500
+    },
+    {
+      "id": 231,
+      "name": "Hot Shot",
+      "image": "%url%Hot Shot.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 11,
+      "stats": {
+        "weight": 27,
+        "expDmg": [
+          30,
+          30
+        ],
+        "heaDmg": 30,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 1,
+        "heaCost": 8
+      }
+    },
+    {
+      "id": 232,
+      "name": "Flame Thrower v5.0",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 12,
+      "stats": {
+        "weight": 24,
+        "expDmg": [
+          30,
+          30
+        ],
+        "heaDmg": 18,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 5
+      },
+      "gold_price": 9000
+    },
+    {
+      "id": 233,
+      "name": "Heat Shotgun",
+      "image": "%url%Heat Shotgun.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 12,
+      "stats": {
+        "weight": 28,
+        "expDmg": [
+          30,
+          36
+        ],
+        "heaDmg": 12,
+        "push": 1,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 10,
+        "bulletsCost": 10
+      }
+    },
+    {
+      "id": 234,
+      "name": "Red Lookout",
+      "image": "%url%Red Lookout.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 13,
+      "stats": {
+        "weight": 27,
+        "expDmg": [
+          20,
+          26
+        ],
+        "heaDmg": 10,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 15
+      },
+      "gold_price": 9500
+    },
+    {
+      "id": 235,
+      "name": "Flaming Snake",
+      "image": "%url%Flaming Snake.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 27,
+        "expDmg": [
+          15,
+          35
+        ],
+        "heaDmg": 25,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 5
+      },
+      "gold_price": 9950
+    },
+    {
+      "id": 236,
+      "name": "Twin rocketsCost",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 14,
+      "stats": {
+        "weight": 31,
+        "expDmg": [
+          33,
+          38
+        ],
+        "heaDmg": 10,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 10
+      },
+      "gold_price": 9950
+    },
+    {
+      "id": 237,
+      "name": "Red Fiering Arms",
+      "image": "%url%Red Fiering Arms.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 15,
+      "stats": {
+        "weight": 31,
+        "expDmg": [
+          30,
+          30
+        ],
+        "heaDmg": 11,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 11
+      },
+      "gold_price": 10350
+    },
+    {
+      "id": 238,
+      "name": "Rocket Fist",
+      "image": "%url%Rocket Fist.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 15,
+      "stats": {
+        "weight": 34,
+        "expDmg": [
+          35,
+          45
+        ],
+        "heaDmg": 10,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 10
+      },
+      "gold_price": 10350
+    },
+    {
+      "id": 239,
+      "name": "Quadruplet rocketsCost",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 16,
+      "stats": {
+        "weight": 37,
+        "expDmg": [
+          45,
+          45
+        ],
+        "heaDmg": 13,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 14,
+        "rocketsCost": 10
+      },
+      "gold_price": 16050
+    },
+    {
+      "id": 240,
+      "name": "Blazer",
+      "image": "%url%Blazer.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 17,
+      "stats": {
+        "weight": 33,
+        "expDmg": [
+          37,
+          37
+        ],
+        "heaDmg": 28,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 6
+      },
+      "gold_price": 11050
+    },
+    {
+      "id": 241,
+      "name": "Double Red Watch Guard",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 17,
+      "stats": {
+        "weight": 36,
+        "expDmg": [
+          32,
+          32
+        ],
+        "heaDmg": 12,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 17
+      },
+      "gold_price": 11050
+    },
+    {
+      "id": 242,
+      "name": "Single Barreled Rocket Launcher",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 17,
+      "stats": {
+        "weight": 39,
+        "expDmg": [
+          48,
+          48
+        ],
+        "heaDmg": 15,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 10
+      }
+    },
+    {
+      "id": 243,
+      "name": "Red Fiering Arms",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 35,
+        "expDmg": [
+          33,
+          33
+        ],
+        "heaDmg": 12,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 11
+      },
+      "gold_price": 11400
+    },
+    {
+      "id": 244,
+      "name": "Sextuplet rocketsCost",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 18,
+      "stats": {
+        "weight": 43,
+        "expDmg": [
+          46,
+          61
+        ],
+        "heaDmg": 14,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 15,
+        "rocketsCost": 10
+      },
+      "gold_price": 17100
+    },
+    {
+      "id": 245,
+      "name": "Red Rein",
+      "image": "%url%Red Rein.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 19,
+      "stats": {
+        "weight": 42,
+        "expDmg": [
+          34,
+          34
+        ],
+        "heaDmg": 13,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 11700
+    },
+    {
+      "id": 246,
+      "name": "Burnout",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 20,
+      "stats": {
+        "weight": 42,
+        "expDmg": [
+          38,
+          57
+        ],
+        "heaDmg": 13,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 11,
+        "rocketsCost": 10
+      },
+      "gold_price": 12000
+    },
+    {
+      "id": 247,
+      "name": "Fiery Bites",
+      "image": "%url%Fiery Bites.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 20,
+      "stats": {
+        "weight": 33,
+        "expDmg": [
+          36,
+          49
+        ],
+        "heaDmg": 28,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 7
+      },
+      "tokens_price": 40
+    },
+    {
+      "id": 248,
+      "name": "Termination Heat",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 21,
+      "stats": {
+        "weight": 46,
+        "expDmg": [
+          32,
+          41
+        ],
+        "heaDmg": 14,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 12250
+    },
+    {
+      "id": 249,
+      "name": "Double Red Fiering Arms",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 21,
+      "stats": {
+        "weight": 46,
+        "expDmg": [
+          30,
+          30
+        ],
+        "heaDmg": 22,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 11
+      },
+      "gold_price": 12250
+    },
+    {
+      "id": 250,
+      "name": "Single Barreled Rocket Launcher",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 50,
+        "expDmg": [
+          49,
+          62
+        ],
+        "heaDmg": 14,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 8,
+        "rocketsCost": 15
+      },
+      "gold_price": 12500
+    },
+    {
+      "id": 251,
+      "name": "Heat Overflow",
+      "image": "%url%Heat Overflow.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 22,
+      "stats": {
+        "weight": 65,
+        "expDmg": [
+          22,
+          22
+        ],
+        "heaDmg": 40,
+        "push": 1,
+        "range": [
+          3,
+          6
+        ],
+        "uses": 3,
+        "heaCost": 10
+      },
+      "gold_price": 18750
+    },
+    {
+      "id": 252,
+      "name": "Twin Termination B",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 23,
+      "stats": {
+        "weight": 49,
+        "expDmg": [
+          38,
+          38
+        ],
+        "heaDmg": 15,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 12700
+    },
+    {
+      "id": 253,
+      "name": "Bright Blast",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 23,
+      "stats": {
+        "weight": 34,
+        "expDmg": [
+          32,
+          32
+        ],
+        "heaDmg": 35,
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 2,
+        "heaCost": 16
+      },
+      "tokens_price": 46
+    },
+    {
+      "id": 254,
+      "name": "Moeplier",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 24,
+      "stats": {
+        "weight": 43,
+        "expDmg": [
+          39,
+          39
+        ],
+        "heaDmg": 15,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 12950
+    },
+    {
+      "id": 255,
+      "name": "Launcher",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 24,
+      "stats": {
+        "weight": 52,
+        "expDmg": [
+          56,
+          56
+        ],
+        "heaDmg": 19,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 15
+      },
+      "tokens_price": 48
+    },
+    {
+      "id": 256,
+      "name": "Shark",
+      "image": "%url%Shark.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 25,
+      "stats": {
+        "weight": 38,
+        "expDmg": [
+          40,
+          54
+        ],
+        "heaDmg": 30,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 3,
+        "heaCost": 6
+      },
+      "gold_price": 13150
+    },
+    {
+      "id": 257,
+      "name": "Basic Laser",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 25,
+      "stats": {
+        "weight": 38,
+        "expDmg": [
+          46,
+          46
+        ],
+        "heaDmg": 18,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 20
+      },
+      "gold_price": 19750
+    },
+    {
+      "id": 258,
+      "name": "Cooker",
+      "image": "%url%Cooker.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 42,
+        "expDmg": [
+          20,
+          30
+        ],
+        "heaDmg": 30,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 16
+      },
+      "gold_price": 13350
+    },
+    {
+      "id": 259,
+      "name": "Basic Double Laser",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 39,
+        "expDmg": [
+          44,
+          44
+        ],
+        "heaDmg": 19,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 18
+      },
+      "gold_price": 20050
+    },
+    {
+      "id": 260,
+      "name": "Missile Battery Mark I",
+      "image": "%url%Missile Battery Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 53,
+        "expDmg": [
+          62,
+          62
+        ],
+        "heaDmg": 18,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 14,
+        "rocketsCost": 15
+      },
+      "tokens_price": 52
+    },
+    {
+      "id": 261,
+      "name": "Mega Blaster",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 27,
+      "stats": {
+        "weight": 31,
+        "expDmg": [
+          42,
+          42
+        ],
+        "heaDmg": 17,
+        "range": [
+          3,
+          4
+        ],
+        "uses": 3,
+        "heaCost": 16
+      },
+      "gold_price": 13500
+    },
+    {
+      "id": 262,
+      "name": "Inferno Mark I",
+      "image": "%url%Inferno Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 27,
+      "stats": {
+        "weight": 33,
+        "expDmg": [
+          18,
+          31
+        ],
+        "heaDmg": 50,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 2,
+        "heaCost": 22
+      }
+    },
+    {
+      "id": 263,
+      "name": "Rocketeer",
+      "image": "%url%Rocketeer.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 57,
+        "expDmg": [
+          58,
+          63
+        ],
+        "heaDmg": 17,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 9,
+        "rocketsCost": 15
+      },
+      "gold_price": 13700
+    },
+    {
+      "id": 264,
+      "name": "Blame Blaster",
+      "image": "%url%Blame Blaster.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 41,
+        "expDmg": [
+          43,
+          43
+        ],
+        "heaDmg": 17,
+        "range": [
+          4,
+          5
+        ],
+        "heaCost": 11
+      },
+      "gold_price": 13700
+    },
+    {
+      "id": 265,
+      "name": "Big Bright Blaster",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 28,
+      "stats": {
+        "weight": 40,
+        "expDmg": [
+          35,
+          40
+        ],
+        "heaDmg": 40,
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "uses": 2,
+        "heaCost": 19
+      },
+      "gold_price": 20550
+    },
+    {
+      "id": 266,
+      "name": "Missile Battery Mark II",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 26,
+      "stats": {
+        "weight": 59,
+        "expDmg": [
+          33,
+          83
+        ],
+        "heaDmg": 30,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 9,
+        "rocketsCost": 15
+      },
+      "tokens_price": 56
+    },
+    {
+      "id": 267,
+      "name": "Rocketful",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 29,
+      "stats": {
+        "weight": 60,
+        "expDmg": [
+          59,
+          69
+        ],
+        "heaDmg": 18,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 15
+      },
+      "gold_price": 13850
+    },
+    {
+      "id": 268,
+      "name": "Blue Shredder Beam",
+      "image": "%url%Blue Shredder Beam.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 29,
+      "stats": {
+        "weight": 48,
+        "expDmg": [
+          48,
+          80
+        ],
+        "heaDmg": 15,
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 23
+      },
+      "tokens_price": 58
+    },
+    {
+      "id": 269,
+      "name": "Dual Barreled Rocket Launcher",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 29,
+      "stats": {
+        "weight": 64,
+        "expDmg": [
+          62,
+          84
+        ],
+        "heaDmg": 19,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 15
+      },
+      "gold_price": 20800
+    },
+    {
+      "id": 270,
+      "name": "Lava",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 45,
+        "expDmg": [
+          40,
+          56
+        ],
+        "heaDmg": 18,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 14000
+    },
+    {
+      "id": 271,
+      "name": "Red Firearms",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 44,
+        "expDmg": [
+          50,
+          56
+        ],
+        "heaDmg": 7,
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "heaCost": 12
+      },
+      "gold_price": 14000
+    },
+    {
+      "id": 272,
+      "name": "Quad Barreled Rocket Launcher",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "R",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 57,
+        "expDmg": [
+          65,
+          80
+        ],
+        "heaDmg": 18,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 9,
+        "rocketsCost": 15
+      },
+      "gold_price": 21000
+    },
+    {
+      "id": 273,
+      "name": "Missile Battery Mark III",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 67,
+        "expDmg": [
+          67,
+          75
+        ],
+        "heaDmg": 25,
+        "push": 1,
+        "range": [
+          3,
+          5
+        ],
+        "heaCost": 10,
+        "rocketsCost": 15
+      },
+      "tokens_price": 60
+    },
+    {
+      "id": 274,
+      "name": "Explosive Resistance Drainer",
+      "image": "%url%Explosive Resistance Drainer.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "C",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 32,
+        "expResDmg": 8,
+        "uses": 1,
+        "heaCost": 12
+      },
+      "gold_price": 14000
+    },
+    {
+      "id": 275,
+      "name": "Shotgun X Mark II",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 79,
+        "expDmg": [
+          20,
+          150
+        ],
+        "heaDmg": 28,
+        "push": 2,
+        "range": [
+          1,
+          2
+        ],
+        "heaCost": 10,
+        "bulletsCost": 15
+      }
+    },
+    {
+      "id": 276,
+      "name": "Grenade Launcher Mark II",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 61,
+        "expDmg": [
+          50,
+          62
+        ],
+        "heaDmg": 20,
+        "expResDmg": 2,
+        "push": 1,
+        "range": [
+          3,
+          4
+        ],
+        "eneCost": 6,
+        "heaCost": 12
+      },
+      "tokens_price": 60
+    },
+    {
+      "id": 277,
+      "name": "Resistance drainer",
+      "image": "%url%God Mode.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "E",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 36,
+        "expResDmg": 9,
+        "uses": 1,
+        "heaCost": 12
+      },
+      "tokens_price": 60
+    },
+    {
+      "id": 278,
+      "name": "Inferno Mark II",
+      "image": "%url%Inferno Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "L",
+      "unlock_level": 30,
+      "stats": {
+        "weight": 43,
+        "expDmg": [
+          22,
+          37
+        ],
+        "heaDmg": 65,
+        "range": [
+          1,
+          1
+        ],
+        "uses": 2,
+        "heaCost": 25
+      }
+    },
+    {
+      "id": 279,
+      "name": "HellFire Armour",
+      "image": "%url%HellFire Armour.png",
+      "type": "TORSO",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 0,
+        "health": 0,
+        "eneCap": 0,
+        "eneReg": 0,
+        "heaCap": 0,
+        "heaCol": 0
+      }
+    },
+    {
+      "id": 280,
+      "name": "Ultra Cooling Module",
+      "image": "%url%Ultra Cooling Module.png",
+      "type": "MODULE",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 58,
+        "heaCol": 65
+      }
+    },
+    {
+      "id": 281,
+      "name": "Fire Wall",
+      "image": "%url%Fire Wall.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 51,
+        "expDmg": [50, 60],
+        "heaDmg": 17,
+        "push": 2,
+        "range": [2, 4],
+        "heaCost": 15
+      }
+    },
+    {
+      "id": 282,
+      "name": "Lava Spray Mark I",
+      "image": "%url%Lava Spray Mark I.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 0
+      }
+    },
+    {
+      "id": 282,
+      "name": "Lava Spray Mark II",
+      "image": "%url%Lava Spray Mark II.png",
+      "type": "SIDE_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 0
+      }
+    },
+    {
+      "id": 283,
+      "name": "Adv. Heat Orb Cannon",
+      "image": "%url%Adv. Heat Orb Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 57,
+        "expDmg": [42, 54],
+        "heaDmg": 26,
+        "expResDmg": 2,
+        "pull": 1,
+        "range": [4, 6],
+        "eneCost": 10,
+        "heaCost": 16
+      }
+    }
+  ]
+}
