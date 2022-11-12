@@ -512,22 +512,19 @@
       "element": "EXPLOSIVE",
       "transform_range": "M",
       "stats": {
-        "weight": 61,
+        "weight": 35,
         "expDmg": [
-          90,
-          140
+          455,
+          697
         ],
-        "heaDmg": 52,
-        "expResDmg": 5,
+        "heaDmg": 231,
+        "expResDmg": 21,
         "push": 1,
         "range": [
-          4,
-          6
+          1,
+          4
         ],
-        "uses": 1,
-        "eneCost": 5,
-        "heaCost": 15,
-        "rocketsCost": 20
+        "heaCost": 15
       }
     },
     {
@@ -887,26 +884,24 @@
     {
       "id": 40,
       "name": "Red Rain Mark I",
-      "image": "%url%God Mode.png",
+      "image": "%url%Red Rain Mark I.png",
       "type": "TOP_WEAPON",
       "element": "EXPLOSIVE",
       "transform_range": "M",
       "stats": {
-        "weight": 71,
+        "weight": 41,
         "expDmg": [
-          60,
-          87
+          332,
+          511
         ],
-        "heaDmg": 35,
-        "expResDmg": 2,
-        "pull": 1,
+        "heaDmg": 187,
+        "expResDmg": 19,
+        "pull": 2,
         "range": [
-          3,
-          5
+          2,
+          6
         ],
-        "eneCost": 5,
-        "heaCost": 20,
-        "rocketsCost": 10
+        "heaCost": 20
       }
     },
     {
@@ -1087,7 +1082,7 @@
       "transform_range": "M",
       "stats": {
         "weight": 31,
-        "health": 90
+        "health": 315
       }
     },
     {
@@ -1137,9 +1132,9 @@
       "element": "EXPLOSIVE",
       "transform_range": "M",
       "stats": {
-        "weight": 52,
-        "heaCap": 43,
-        "heaCol": 22
+        "weight": 22,
+        "heaCap": 122,
+        "heaCol": 94
       }
     },
     {
@@ -1228,9 +1223,9 @@
       "transform_range": "M",
       "stats": {
         "weight": 51,
-        "phyRes": 11,
-        "expRes": 11,
-        "eleRes": 11
+        "phyRes": 110,
+        "expRes": 110,
+        "eleRes": 110
       }
     },
     {
@@ -2409,13 +2404,13 @@
       "unlock_level": 30,
       "stats": {
         "weight": 395,
-        "health": 432,
-        "eneCap": 95,
-        "eneReg": 24,
-        "heaCap": 110,
-        "heaCol": 26,
-        "rocketsCap": 25,
-        "expRes": 6
+        "health": 1255,
+        "eneCap": 234,
+        "eneReg": 112,
+        "heaCap": 422,
+        "heaCol": 142,
+        "phyRes": 55,
+        "expRes": 44
       },
       "element": "PHYSICAL"
     },
@@ -3105,14 +3100,14 @@
       "unlock_level": 30,
       "stats": {
         "weight": 69,
-        "health": 72,
+        "health": 631,
         "phyDmg": [
-          65,
-          65
+          195,
+          312
         ],
         "push": 1,
-        "walk": 1,
-        "jump": 2
+        "walk": 2,
+        "jump": 4
       },
       "element": "PHYSICAL"
     },
