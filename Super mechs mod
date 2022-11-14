@@ -1,0 +1,311 @@
+{
+  "version": "1",
+  "config": {
+    "key": "@legacy",
+    "name": "Legacy Items Pack",
+    "description": "mod item!\n\nCredits: jikiu",
+    "base_url": "https://raw.githubusercontent.com/ctrl-raul/supermechs-item-images/master/legacy/png/"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "image": "%url%Newbie.png",
+      "type": "TORSO",
+      "element": "ELECTRIC",
+      "transform_range": "C",
+      "stats": {
+        "weight": 324,
+        "health": 500,
+        "eneCap": 150,
+        "eneReg": 40,
+        "heaCap": 110,
+        "heaCol": 20,
+        "phyRes": 3,
+        "expRes": 3,
+        "eleRes": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "Red Scope",
+      "image": "%url%Lava Scope.png",
+      "type": "TORSO",
+      "transform_range": "R",
+      "stats": {
+        "weight": 377,
+        "health": 743,
+        "eneCap": 210,
+        "eneReg": 68,
+        "heaCap": 309,
+        "heaCol": 112,
+        "phyRes": 7,
+        "expRes": 12,
+        "eleRes": 7
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 3,
+      "name": "Electron Defence",
+      "image": "%url%Electron Defence.png",
+      "type": "TORSO",
+      "transform_range": "E",
+      "stats": {
+        "weight": 344,
+        "health": 986,
+        "eneCap": 433,
+        "eneReg": 132,
+        "heaCap": 300,
+        "heaCol": 96,
+        "eleRes": 30,
+        "phyRes": 17,
+        "expRes": 12
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 4,
+      "name": "Electroman",
+      "image": "%url%Metrolens.png",
+      "type": "TORSO",
+      "transform_range": "L",
+      "stats": {
+        "weight": 341,
+        "health": 1234,
+        "eneCap": 511,
+        "eneReg": 196,
+        "heaCap": 346,
+        "heaCol": 134,
+        "phyRes": 55,
+        "expRes": 30,
+        "eleRes": 22
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 5,
+      "name": "Basic Legs",
+      "image": "%url%Metal Walkers.png",
+      "type": "LEGS",
+      "transform_range": "C",
+      "stats": {
+        "weight": 99,
+        "health": 122,
+        "phyRes": 2
+        "phyDmg": [
+          29,
+          54
+        ],
+        "push": 1,
+        "walk": 1,
+        "jump": 2
+      },
+      "element": "PHYSICAL"
+    },
+    {
+      "id": 6,
+      "name": "Big Foots",
+      "image": "%url%Ultra Stompers.png",
+      "type": "LEGS",
+      "transform_range": "R",
+      "stats": {
+        "weight": 183,
+        "health": 366,
+        "phyRes": 10,
+        "phyDmg": [
+          78,
+          98
+        ],
+        "push": 1,
+        "walk": 1
+      },
+      "element": "EXPLOSIVE"
+    },
+    {
+      "id": 7,
+      "name": "Rhino Boots",
+      "image": "%url%Rhino Boots.png",
+      "type": "LEGS",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "health": 3600000,
+        "phyDmg": [
+          1,
+          100000
+        ],
+        "push": 0,
+        "range": [
+          1,
+          9
+        ],
+        "walk": 9,
+        "jump": 9
+      }
+    },
+    {
+      "id": 8,
+      "name": "Flame Boots",
+      "image": "%url%Flame Boots.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 71,
+        "health": 36,
+        "expDmg": [
+          40,
+          40
+        ],
+        "heaDmg": 540000000,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      }
+    },
+    {
+      "id": 9,
+      "name": "Thunder Boots",
+      "image": "%url%Thunder Boots.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 76,
+        "health": 36,
+        "eleDmg": [
+          37,
+          37
+        ],
+        "eneDmg": 54,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      }
+    },
+    {
+      "id": 10,
+      "name": "Steel Tractors",
+      "image": "%url%Steel Tractors.png",
+      "type": "LEGS",
+      "element": "PHYSICAL",
+      "transform_range": "M",
+      "stats": {
+        "weight": 59,
+        "health": 35,
+        "phyDmg": [
+          60,
+          60
+        ],
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 11,
+      "name": "Burning Tractors",
+      "image": "%url%Burning Tractors.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 72,
+        "health": 35,
+        "expDmg": [
+          28,
+          28
+        ],
+        "heaDmg": 45,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "Lightning Tractors",
+      "image": "%url%Lightning Tractors.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 72,
+        "health": 35,
+        "eleDmg": [
+          28,
+          28
+        ],
+        "eneDmg": 45,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 13,
+      "name": "USA Transporter",
+      "image": "%url%USA Transporter.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "health": 100,
+        "expDmg": [
+          1,
+          1
+        ],
+        "heaDmg": 250,
+        "push": 8,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 3
+      }
+    },
+    {
+      "id": 14,
+      "name": "Yoshimo Legs",
+      "image": "%url%Yoshimo Legs.png",
+      "type": "LEGS",
+      "element": "ELECTRIC",
+      "transform_range": "M",
+      "stats": {
+        "weight": 1,
+        "health": 50,
+        "eleDmg": [
+          40,
+          40
+        ],
+        "eneDmg": 10,
+        "push": 1,
+        "range": [
+          1,
+          9
+        ],
+        "walk": 3
+      }
+    }
+  ]
+}
