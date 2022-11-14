@@ -92,7 +92,7 @@
       "stats": {
         "weight": 99,
         "health": 122,
-        "phyRes": 2
+        "phyRes": 2,
         "phyDmg": [
           29,
           54
