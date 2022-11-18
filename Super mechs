@@ -884,7 +884,7 @@
     {
       "id": 40,
       "name": "Red Rain Mark I",
-      "image": "%url%Red Rain Mark I.png",
+      "image": "%url%God Mode.png",
       "type": "TOP_WEAPON",
       "element": "EXPLOSIVE",
       "transform_range": "M",
