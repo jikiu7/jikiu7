@@ -33,7 +33,7 @@
       "type": "TORSO",
       "transform_range": "R",
       "stats": {
-        "weight": 377,
+        "weight": 376,
         "health": 743,
         "eneCap": 210,
         "eneReg": 68,
@@ -200,25 +200,6 @@
         ],
         "walk": 1,
         "jump": 2
-      }
-    },
-    {
-      "id": 10,
-      "name": "Steel Tractors",
-      "image": "%url%Steel Tractors.png",
-      "type": "SIDEWEAPON",
-      "element": "PHYSICAL",
-      "transform_range": "C",
-      "stats": {
-        "weight": 59,
-        "phyDmg": [
-          60,
-          60
-        ],
-        "range": [
-          1,
-          2
-        ]
       }
     },
     {
