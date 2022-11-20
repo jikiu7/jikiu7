@@ -98,6 +98,10 @@
           54
         ],
         "push": 1,
+        "range": [
+          1,
+          1
+        ],
         "walk": 1,
         "jump": 2
       },
@@ -118,48 +122,53 @@
           98
         ],
         "push": 1,
+        "range" [
+          1,
+          1
+        ],
         "walk": 1
       },
       "element": "EXPLOSIVE"
     },
     {
       "id": 7,
-      "name": "Rhino Boots",
-      "image": "%url%Rhino Boots.png",
+      "name": "Elephant Boots",
+      "image": "%url%Elephant.png",
       "type": "LEGS",
       "element": "PHYSICAL",
-      "transform_range": "M",
+      "transform_range": "E",
       "stats": {
-        "weight": 1,
-        "health": 3600000,
+        "weight": 279,
+        "health": 550,
         "phyDmg": [
-          1,
-          100000
+          88,
+          147
         ],
-        "push": 0,
+        "push": 2,
         "range": [
           1,
-          9
+          1
         ],
-        "walk": 9,
-        "jump": 9
+        "walk": 2
       }
     },
     {
       "id": 8,
-      "name": "Flame Boots",
-      "image": "%url%Flame Boots.png",
+      "name": "Protect Legs",
+      "image": "%url%Golden Springs.png",
       "type": "LEGS",
-      "element": "EXPLOSIVE",
-      "transform_range": "M",
+      "element": "PHYSICAL",
+      "transform_range": "L",
       "stats": {
-        "weight": 71,
-        "health": 36,
-        "expDmg": [
-          40,
-          40
+        "weight": 199,
+        "health": 142,
+        "phyRes": 40,
+        "eleRes": 40,
+        "expRes": 40,
+        "phyDmg": [
+          90,
+          90
         ],
-        "heaDmg": 540000000,
         "push": 1,
         "range": [
           1,
@@ -197,22 +206,19 @@
       "id": 10,
       "name": "Steel Tractors",
       "image": "%url%Steel Tractors.png",
-      "type": "LEGS",
+      "type": "SIDEWEAPON",
       "element": "PHYSICAL",
-      "transform_range": "M",
+      "transform_range": "C",
       "stats": {
         "weight": 59,
-        "health": 35,
         "phyDmg": [
           60,
           60
         ],
-        "push": 1,
         "range": [
           1,
-          1
-        ],
-        "walk": 3
+          2
+        ]
       }
     },
     {
